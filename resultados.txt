@@ -1,0 +1,27 @@
+============================================================
+RutaTica-AG: TSP con 20 ciudades de Costa Rica
+============================================================
+
+[1] Ejecución principal (semilla 42)
+Distancia de la mejor ruta: 921.71 km
+Ruta: San José -> Cartago -> Turrialba -> Guápiles -> Siquirres -> Limón -> Ciudad Neily -> Golfito -> San Isidro (P. Zeledón) -> Quepos -> Jacó -> Puntarenas -> Nicoya -> Santa Cruz -> Liberia -> Cañas -> Ciudad Quesada -> San Ramón -> Alajuela -> Heredia -> San José
+
+[2] Comparación con otros métodos
+Rutas aleatorias (1000): promedio 2540.83 km, mejor 1697.44 km
+Vecino más cercano:      1222.06 km
+Algoritmo genético:      921.71 km
+
+[3] 10 ejecuciones con semillas distintas (config. base)
+Distancias (km): 921.7, 921.7, 921.7, 979.5, 921.7, 921.7, 921.7, 921.7, 921.7, 921.7
+Mejor: 921.71  Promedio: 927.49  Peor: 979.47  Desv. est.: 18.27
+
+[4] Efecto de los parámetros (promedio de 10 ejecuciones)
+Configuración                 Promedio km   Mejor km
+Población 50                       943.67     921.71
+Población 150 (base)               927.49     921.71
+Población 300                      921.71     921.71
+Mutación 0.05                      931.47     921.71
+Mutación 0.50                      921.71     921.71
+Mutación por intercambio           972.55     921.71
+
+Gráficos guardados: ruta_final.png, convergencia.png, comparacion.png
